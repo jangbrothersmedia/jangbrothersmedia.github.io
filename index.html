@@ -110,20 +110,35 @@ body {
 </head>
 <body>
 
-<div class="header d-flex align-items-center">
-  <div class="mx-auto">
-    <img src="jang.jpeg" alt="JB Logo" class="img-fluid"> <!-- Replace "jang.jpeg" with the path to your image -->
-    <h1 class="text-center">Jang Brothers</h1>
-  </div>
-</div>
-
-<div class="topnav">
-  <a href="#">Link</a>
-  <a href="doosan.html">Link</a>
-  <a href="#">Link</a>
-  <a href="#" style="float:right">Link</a>
-</div>
-
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="jang.jpeg" alt="JB Logo" class="img-fluid"> <!-- Replace "jang.jpeg" with the path to your image -->
+      Jang Brothers
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Teams</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Players</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Standings</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
