@@ -17,7 +17,7 @@ body {
 /* Header/Blog Title */
 .header {
   padding: 10px;
-  text-align: left;
+  text-align: middle;
   background: white;
 }
 
@@ -110,9 +110,11 @@ body {
 </head>
 <body>
 
-<div class="header">
-  <img src="jang.jpeg" alt="JB Logo"> <!-- Replace "logo.png" with the path to your image -->
-  <h1>Jang Brothers</h1>
+<div class="header d-flex align-items-center">
+  <div class="mx-auto">
+    <img src="jang.jpeg" alt="JB Logo" class="img-fluid"> <!-- Replace "jang.jpeg" with the path to your image -->
+    <h1 class="text-center">Jang Brothers</h1>
+  </div>
 </div>
 
 <div class="topnav">
